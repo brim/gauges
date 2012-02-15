@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Brim LLC
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to support@brimllc.com so we can send you a copy immediately.
+ *
+ *
+ * @category   Brim
+ * @package    Brim_Gauges
+ * @copyright  Copyright (c) 2012 Brim LLC
+ * @license    http://ecommerce.brimllc.com/license-osl
+ */
+-->
+<config>
+    <tabs>
+        <brim translate="label">
+            <label>Brim Extensions</label>
+            <sort_order>300</sort_order>
+        </brim>
+    </tabs>
+    <sections>
+        <brim_gauges translate="label" module="brim_gauges">
+            <class>separator-top</class>
+            <label>Gauges</label>
+            <tab>brim</tab>
+            <frontend_type>text</frontend_type>
+            <!--<sort_order>30</sort_order>-->
+            <show_in_default>1</show_in_default>
+            <groups>
+                <settings translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <fields>
+                        <gauge_id translate="label">
+                            <label>Gauge ID</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                            ]]></comment>
+                        </gauge_id>
+                    </fields>
+                </settings>
+                <help>
+                    <label>Help</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[
+                        <h3>Get help when you need it</h3>
+                        <p>
+                            Checkout our <strong><a target="_blank" href="https://brimllc.zendesk.com/forums">Knowledge Base</a></strong>
+                            for answers to some common questions or <strong><a target="_blank" href="https://brimllc.zendesk.com/">Submit a Ticket</a></strong>
+                            if you need additional help.
+                        </p>
+                        <p>
+                            Make sure to follow <strong><a target="_blank" title="Brim on Twitter" href="http://twitter.com/brimllc">@brimllc</a></strong>
+                            on Twitter to not miss out on important product updates, news, and tips! </p>
+                        </p>
+                    ]]></comment>
+                </help>
+            </groups>
+        </brim_gauges>
+    </sections>
+</config>

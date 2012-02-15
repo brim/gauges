@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Brim LLC
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to support@brimllc.com so we can send you a copy immediately.
+ *
+ *
+ * @category   Brim
+ * @package    Brim_Gauges
+ * @copyright  Copyright (c) 2012 Brim LLC
+ * @license    http://ecommerce.brimllc.com/license-osl
+ */
+-->
+<config>
+    <modules>
+        <Brim_Gauges>
+            <version>1.0.0</version>
+        </Brim_Gauges>
+    </modules>
+    <global>
+        <models>
+            <brim_gauges>
+                <class>Brim_Gauges_Model</class>
+            </brim_gauges>
+        </models>
+        <helpers>
+            <brim_gauges>
+                <class>Brim_Gauges_Helper</class>
+            </brim_gauges>
+        </helpers>
+        <events>
+        </events>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <brim_gauges>
+                    <file>brim_gauges.xml</file>
+                </brim_gauges>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <brim_cachewarmer>
+            <settings>
+                <gauge_id></gauge_id>
+            </settings>
+        </brim_cachewarmer>
+    </default>
+</config>

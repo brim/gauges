@@ -1,0 +1,4 @@
+code                                app/code/community/Brim/Gauges/
+design/layout/brim_gauges.xml       app/design/frontend/base/default/layout/brim_gauges.xml
+design/template/gauges.phtml        app/design/frontend/base/default/template/brim_gauges/gauges.phtml
+Brim_Gauges.xml                     app/etc/modules/Brim_Gauges.xml
