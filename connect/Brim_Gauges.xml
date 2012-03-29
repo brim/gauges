@@ -1,0 +1,102 @@
+<_>
+   <form_key>H0h4bDK4eZ6O80wX</form_key>
+   <name>Brim_Gauges</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>Get real time analytics for Magento with Gauges.</summary>
+   <description>Get real time analytics for Magento with Gauges.
+
+This extension makes it easy to add the Gauges tracking code to your stores.  Each store view can have it&apos;s own Gauge.
+
+For more information on Gauges visit http://get.gaug.es/ .
+
+</description>
+   <license>Open Software License</license>
+   <license_uri>http://ecommerce.brimllc.com/license-osl</license_uri>
+   <version>1.0.0</version>
+   <stability>stable</stability>
+   <notes>- Initial Release</notes>
+   <authors>
+      <name>
+         <name>Brim LLC</name>
+      </name>
+      <user>
+         <user>brimllc</user>
+      </user>
+      <email>
+         <email>devs@brimllc.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>5.4.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>          </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>mageetc</target>
+      </target>
+      <path>
+         <path/>
+         <path>Brim/Gauges/</path>
+         <path>frontend/base/default/layout/brim_gauges.xml</path>
+         <path>frontend/base/default/template/brim_gauges/gauges.phtml</path>
+         <path>modules/Brim_Gauges.xml</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

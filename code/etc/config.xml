@@ -50,10 +50,10 @@
         </layout>
     </frontend>
     <default>
-        <brim_cachewarmer>
+        <brim_gauges>
             <settings>
                 <gauge_id></gauge_id>
             </settings>
-        </brim_cachewarmer>
+        </brim_gauges>
     </default>
 </config>
